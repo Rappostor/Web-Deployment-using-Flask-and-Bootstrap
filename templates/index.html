@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Home | Belajar Basic Web Development</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand navbar-light bg-light shadow shadow-sm mb-2 px-2">
+      <a class="navbar-brand" href="{{ url_for('home') }}">
+        <img src="{{ url_for('send_assets', path='gambar1.jpg') }}" width="60px" height="auto"
+          class="d-inline-block align-top" alt="Logo">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav d-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('profile') }}">Profile Bootstrap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('form') }}">Form Bootstrap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('resume') }}">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar End -->
+
+  <!-- Content -->
+  <div class="container">
+    <div class="card p-5">
+      <h1 class="text-center">Home: Belajar Basic Web Development</h1>
+      <hr>
+      <h2 class="mb-5">Pada modul ini kita akan membuat halaman-halaman berikut:</h2>
+      <ol>
+        <li>
+          <p>Profile Bootstrap</p>
+        </li>
+        <li>
+          <p>Form Bootstrap</p>
+        </li>
+        <li>
+          <p>Resume</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <!-- Content End -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.container-fluid {
+    margin: 0;
+    padding: 0; 
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+}
+
+.navbar-brand img {
+    height: 100%; 
+    object-fit: contain; 
+    margin: 0;
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+  
+  .Judul {
+    color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h2 {
+    color: maroon;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  img{
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    
+
+.deskripsi{
+    margin: auto;
+    place-items: center;
+    place-content: center;
+    text-align: center;
+  }
+
+h1{
+  margin: auto;
+  align-content: baseline;
+  align-items: baseline;
+}
+
+.body{
+  margin-top: 30px;
+}
+
+.biodata-1{
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
+.Kontak {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 50px;               
+}
+
+form {
+  background-color: white;
+  width: 50%;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f4f7f6;
+}
+
+.submit{
+  text-align: right;
+}
+
+input[type="text-1"] {
+  width: 100%;
+  padding: 100px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #f4f7f6;
+}
+
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Mengatur margin dari elemen-elemen di form */
+form input, form button {
+    margin-top: 10px;
+}
+
+h3{
+  text-align: center;
+}
